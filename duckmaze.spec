@@ -10,7 +10,6 @@ Source0:	http://dl.sourceforge.net/duckmaze/%{name}-pc-%{version}.zip
 Patch0:		%{name}-import.patch
 URL:		http://duckmaze.sourceforge.net/
 BuildRequires:	python-pygame-devel
-BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
