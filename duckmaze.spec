@@ -1,5 +1,5 @@
-Summary:	Simple puzzle game written in python
-Summary(pl.UTF-8):	Prosta gra logincza napisana w pythonie
+Summary:	Simple puzzle game written in Python
+Summary(pl.UTF-8):	Prosta gra logiczna napisana w Pythonie
 Name:		duckmaze
 Version:	0.2
 Release:	1
@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/duckmaze/%{name}-pc-%{version}.zip
 Patch0:		%{name}-import.patch
 URL:		http://duckmaze.sourceforge.net/
 BuildRequires:	python-pygame-devel
+BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
