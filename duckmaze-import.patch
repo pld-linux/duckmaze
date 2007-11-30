@@ -1,0 +1,11 @@
+--- duckmaze-pc-0.2/duckmaze.py~	2007-11-30 03:11:12.000000000 +0100
++++ duckmaze-pc-0.2/duckmaze.py	2007-11-30 03:09:56.000000000 +0100
+@@ -20,6 +20,8 @@
+ #
+ 
+ import pygame, os, sys, random, gc, md5
++sys.path.append('/usr/share/duckmaze')
++sys.path.append('/usr/share/duckmaze/mopelib')
+ from pygame.locals import *
+ from mopelib import mopelib
+ import level_editor
