@@ -30,7 +30,7 @@ poziomów przechodzi do coraz trudniejszych.
 
 %prep
 %setup -q -n %{name}-pc-%{version}
-%patch0 -p1
+%patch -P0 -p1
 %{__sed} -i -e 's@install_dir = "."@install_dir = "%{_datadir}/%{name}"@g' duckmaze.py
 
 %install
